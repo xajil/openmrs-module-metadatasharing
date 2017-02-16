@@ -95,7 +95,7 @@ public class ExportPackageTask extends Task {
 					to = packageItems.size();
 				}
 
-				log("Exporting subpackage [items from " + from + " to " + to + " of " + packageItems.size() + "]");
+				// log("Exporting subpackage [items from " + from + " to " + to + " of " + packageItems.size() + "]");
 				metadata.add(exportSubpackage(packageItems.subList(from, to)));
 			}
 
